@@ -1,15 +1,15 @@
 .etch-a-sketch-holder{
     display: grid;
-    grid-template-columns: repeat(100, 10px);
-    grid-template-rows: repeat(100, 10px);
+    grid-template-columns: repeat(64, 10px);
+    grid-template-rows: repeat(64, 10px);
     position: relative;
-    height:1000px;
-    width: 1000px;
+    height: 640px;
+    width: 640px;
     margin: auto;
     margin-top:5em;
     margin-bottom: auto;
     background-color:white;
-    border:black;
+    border: 5px solid black;
 }
 body{
     height: 100%;
