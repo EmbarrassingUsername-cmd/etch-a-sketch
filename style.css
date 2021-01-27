@@ -1,0 +1,65 @@
+.etch-a-sketch-holder{
+    display: grid;
+    grid-template-columns: repeat(100, 10px);
+    grid-template-rows: repeat(100, 10px);
+    position: relative;
+    height:1000px;
+    width: 1000px;
+    margin: auto;
+    margin-top:5em;
+    margin-bottom: auto;
+    background-color:white;
+    border:black;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.pixels{
+    background-color: white;
+    height:10px;
+    width: 10px;
+}
+.black-pixel{
+    background-color: black;
+}
+.shaded-pixel0{
+    opacity: 10%;
+    background-color: black
+}
+.shaded-pixel1{
+    opacity: 20%;
+    background-color: black;
+}
+.shaded-pixel2{
+    opacity: 30%;
+    background-color: black
+}
+.shaded-pixel3{
+    opacity: 40%;
+    background-color: black
+}
+.shaded-pixel4{
+    opacity: 50%;
+    background-color: black
+}
+.shaded-pixel5{
+    opacity: 60%;
+    background-color: black
+}
+.shaded-pixel6{
+    opacity: 70%;
+    background-color: black
+}
+.shaded-pixel7{
+    opacity: 80%;
+    background-color: black
+}
+.shaded-pixel8{
+    opacity: 90%;
+    background-color: black
+}
+.shaded-pixel9{
+    opacity: 100%;
+    background-color: black
+}
