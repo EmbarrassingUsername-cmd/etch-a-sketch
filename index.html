@@ -5,9 +5,18 @@
 <link rel="stylesheet" href="style.css">
 <body>
     <div class="etch-a-sketch-holder"></div>
-    <button id="reset">Reset</button>
-    
-    </body>
+    <div id="button-holder">
+        <button id="reset">Reset</button>
+        <button id="shade">Shading</button>
+        <button id="black">Black</button>
+        <button id="random">Random Colours</button>
+        <input type="color" id="color-selector">
+    </div>
+    <div id="slider-holder">
+    <input type="range" id="grid-selector" name="grid-selector" min=4 max=100 value="64">
+    <label for="grid-selector">Select Grid Size: <input id=grid-selector-value></input>pixels</label>
+    </div>
+</body>
 <script src="etchasketch.js"></script>
 
 </html> 

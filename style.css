@@ -1,7 +1,5 @@
 .etch-a-sketch-holder{
     display: grid;
-    grid-template-columns: repeat(64, 10px);
-    grid-template-rows: repeat(64, 10px);
     position: relative;
     height: 640px;
     width: 640px;
@@ -11,21 +9,49 @@
     background-color:white;
     border: 5px solid black;
 }
-body{
-    height: 100%;
-    width: 100%;
+#button-holder{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: fit-content;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
 }
-.pixels{
-    background-color: white;
-    height:10px;
-    width: 10px;
+#slider-holder{
+    display:flex;
+    height:fit-content;
+    min-height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    max-width:600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    height: fit-content;
+    min-height: 22px;
+    display: flex;
+    flex-direction: row;
+}
+#grid-selector{
+    max-width:400px
+}
+#grid-selector-value{
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 23px;
 }
 .black-pixel{
     background-color: black;
 }
 .shaded-pixel0{
     opacity: 10%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel1{
     opacity: 20%;
@@ -33,33 +59,33 @@ body{
 }
 .shaded-pixel2{
     opacity: 30%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel3{
     opacity: 40%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel4{
     opacity: 50%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel5{
     opacity: 60%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel6{
     opacity: 70%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel7{
     opacity: 80%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel8{
     opacity: 90%;
-    background-color: black
+    background-color: black;
 }
 .shaded-pixel9{
     opacity: 100%;
-    background-color: black
+    background-color: black;
 }
